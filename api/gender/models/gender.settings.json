@@ -1,0 +1,12 @@
+{
+  "kind": "collectionType",
+  "collectionName": "genders",
+  "info": {
+    "name": "Gender"
+  },
+    "attributes": {
+    "genderName": {
+      "type": "string"
+    }
+  }
+}

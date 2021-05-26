@@ -1,0 +1,15 @@
+{
+  "kind": "collectionType",
+  "collectionName": "types",
+  "info": {
+    "name": "Type"
+  },
+  "attributes": {
+    "typeName": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}
