@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "Order",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "costumerName": {
+      "type": "string"
+    },
+    "costumerEmail": {
+      "type": "string"
+    },
+    "costumerCity": {
+      "type": "string"
+    },
+    "costumerPostCode": {
+      "type": "string"
+    },
+    "costumerCountry": {
+      "type": "string"
+    },
+    "costumerStreetAddress": {
+      "type": "string"
+    },
+    "order_items": {
+      "collection": "order-items"
+    }
+  }
+}
