@@ -4,7 +4,7 @@
   "info": {
     "name": "Gender"
   },
-    "attributes": {
+  "attributes": {
     "genderName": {
       "type": "string"
     }

@@ -5,6 +5,9 @@
     "name": "Product",
     "description": ""
   },
+  "options": {
+    "draftAndPublish": false
+  },
   "attributes": {
     "Name": {
       "type": "string"
@@ -44,6 +47,9 @@
     },
     "type": {
       "model": "type"
+    },
+    "InStock": {
+      "type": "integer"
     }
   }
 }
