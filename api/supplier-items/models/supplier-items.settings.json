@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "supplier_items",
+  "info": {
+    "name": "supplierItems"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "products": {
+      "collection": "product"
+    },
+    "supplierStock": {
+      "type": "integer"
+    }
+  }
+}
