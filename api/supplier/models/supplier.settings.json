@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "suppliers",
   "info": {
-    "name": "supplier"
+    "name": "supplier",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -22,6 +23,9 @@
     },
     "supplierPostCode": {
       "type": "integer"
+    },
+    "supplier_items": {
+      "collection": "supplier-items"
     }
   }
 }
